@@ -19,8 +19,7 @@ const parse = async (url) => {
 };
 parse(feedUrl);
 app.get("/api/rss", async (req, res) => {
-  // res.send(articles);
-  res.send("asdasdasdd");
+  res.send(articles);
 });
 app.listen(5173, () => {
   console.log("listening");
