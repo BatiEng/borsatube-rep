@@ -1,7 +1,7 @@
 const analysisData = [
   {
     id: 1,
-    img: "./../../public/analysis-1.jpeg",
+    img: "https://github.com/BatiEng/borsatube-rep/blob/main/vite-project/public/analysis-1.jpeg?raw=true",
     title: "BIST100 Genel Analiz",
     shareName: "BIST100",
     date: "04.01.2004",
@@ -11,7 +11,7 @@ const analysisData = [
   },
   {
     id: 2,
-    img: "./../../public/analysis-2.jpeg",
+    img: "https://github.com/BatiEng/borsatube-rep/blob/main/vite-project/public/analysis-2.jpeg?raw=true",
 
     title: "TUPRAS tarihi yukselis geliyor",
     shareName: "TUPRS",

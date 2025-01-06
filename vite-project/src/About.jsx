@@ -7,7 +7,7 @@ function About() {
         <div className="about-img-container">
           <img
             className="about-img"
-            src="./../public/borsatube-logo.png"
+            src="https://github.com/BatiEng/borsatube-rep/blob/main/vite-project/public/borsatube-logo.png?raw=true"
             alt="person image"
           />
           <h1 className="about-author">Borsatube</h1>
