@@ -21,6 +21,6 @@ parse(feedUrl);
 app.get("/api/rss", async (req, res) => {
   res.send(articles);
 });
-app.listen(5173, () => {
+app.listen(3000, () => {
   console.log("listening");
 });
