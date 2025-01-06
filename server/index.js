@@ -22,7 +22,6 @@ const parse = async (url) => {
 parse(feedUrl);
 app.get("/", async (req, res) => {
   res.send(articles);
-  // res.send("sdfads");
 });
 app.listen(3000, () => {
   console.log("listening");

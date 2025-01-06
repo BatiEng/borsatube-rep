@@ -9,7 +9,7 @@ const NewsDetail = () => {
 
   const getArticles = async () => {
     try {
-      const res = await axios.get("http://127.0.0.1:3000/");
+      const res = await axios.get("https://borsatube-rep-server.vercel.app/");
       setArticles(res.data);
     } catch (err) {
       console.log(err);
