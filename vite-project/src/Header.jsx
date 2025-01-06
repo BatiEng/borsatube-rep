@@ -41,7 +41,10 @@ function Header() {
       <div className="header-container">
         <div className="header-logo">
           <Link to="/">
-            <img className="header-logo" src="./../public/borsatube-logo.png" />
+            <img
+              className="header-logo"
+              src="https://github.com/BatiEng/borsatube-rep/blob/main/vite-project/public/borsatube-logo.png?raw=true"
+            />
           </Link>
           <Link className="header-title" to="/">
             Borsatube
