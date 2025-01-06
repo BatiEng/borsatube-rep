@@ -16,7 +16,7 @@ function News() {
 
   const getArticles = async () => {
     try {
-      const res = await axios.get("http://127.0.0.1:3000/api/rss");
+      const res = await axios.get("http://127.0.0.1:3000/");
       setArticles(res.data);
     } catch (err) {
       console.log(err);
