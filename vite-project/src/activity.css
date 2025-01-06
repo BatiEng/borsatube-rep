@@ -1,0 +1,11 @@
+.page-sub-activity {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem auto;
+}
+
+@media (max-width: 1000px) {
+  .page-sub-activity {
+    margin: 5rem 2rem;
+  }
+}

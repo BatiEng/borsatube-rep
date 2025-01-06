@@ -1,0 +1,44 @@
+.analysis-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.analysis-detail-title {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+.analysis-detail-name {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.analysis-detail-img {
+  margin: 1rem auto;
+  max-width: 120rem;
+}
+.analysis-detail-text {
+  font-size: 2rem;
+  color: #797979;
+  line-height: 1.5;
+}
+.analysis-detail-description {
+  max-width: 120rem;
+  margin: 5rem auto;
+}
+@media (max-width: 960px) {
+  .analysis-detail-img {
+  }
+  .analysis-detail-name {
+    font-size: 2rem;
+  }
+  .analysis-detail-title {
+    font-size: 2rem;
+  }
+  .analysis-detail-description {
+    margin: 1rem 5rem;
+  }
+  .analysis-detail-text {
+    font-size: 1.5rem;
+  }
+}

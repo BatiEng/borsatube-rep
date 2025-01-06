@@ -1,0 +1,17 @@
+.news-detail-container {
+  max-width: 80rem;
+  margin: 2rem auto;
+}
+.news-detail-img {
+  max-width: 80rem;
+}
+.news-detail-title {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+.news-detail-text {
+  font-size: 2rem;
+  color: #797979;
+  text-align: start;
+}

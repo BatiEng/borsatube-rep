@@ -1,0 +1,53 @@
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  height: 100%;
+  padding: 5rem 10rem;
+}
+.about-img-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+.about-author {
+  font-family: "Dancing Script", serif;
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+.about-img {
+  width: 30rem;
+  height: auto;
+}
+.about-title {
+  font-size: 3.6rem;
+  margin-bottom: 4rem;
+}
+.about-exp {
+  font-size: 2.4rem;
+  color: #797979;
+  line-height: 1.5;
+}
+@media (max-width: 1000px) {
+  .about-container {
+    flex-direction: column;
+    padding: 5rem 5rem;
+  }
+}
+@media (max-width: 800px) {
+  .about-title {
+    font-size: 3rem;
+  }
+  .about-exp {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 600px) {
+  .about-title {
+    font-size: 2.5rem;
+  }
+  .about-exp {
+    font-size: 1.6rem;
+  }
+}

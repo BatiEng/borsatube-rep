@@ -1,0 +1,112 @@
+/* 
+SPACING SYSTEM (px) 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
+
+FONT SIZE SYSTEM (px) 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
+*/
+
+.hero-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./imgs/hero.jpg");
+  width: 100vw;
+  height: 72rem;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 8.6rem;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Dancing Script", serif;
+}
+.hero-link {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #1d8f5a;
+  color: white;
+  padding: 2.4rem;
+  font-size: 2.4rem;
+  border-radius: 20px;
+}
+.hero-link:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #1d8f5ac0;
+}
+@media (max-width: 1050px) {
+  .hero-container {
+    height: 65rem;
+  }
+  .hero-title {
+    font-size: 8rem;
+  }
+  .hero-link {
+    font-size: 2rem;
+    padding: 2rem;
+  }
+}
+@media (max-width: 975px) {
+  .hero-container {
+    height: 60rem;
+  }
+  .hero-title {
+    font-size: 7rem;
+  }
+  .hero-link {
+    padding: 1.8rem;
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 850px) {
+  .hero-container {
+    height: 55rem;
+  }
+  .hero-title {
+    font-size: 6rem;
+  }
+  .hero-link {
+    font-size: 1.6rem;
+    padding: 1.6rem;
+  }
+}
+@media (max-width: 730px) {
+  .hero-container {
+    height: 50rem;
+  }
+  .hero-title {
+    font-size: 5rem;
+  }
+  .hero-link {
+    font-size: 1.4rem;
+    padding: 1.4rem;
+  }
+}
+@media (max-width: 610px) {
+  .hero-container {
+    height: 45rem;
+  }
+  .hero-title {
+    font-size: 4rem;
+  }
+  .hero-link {
+    font-size: 1.2rem;
+    padding: 1.2rem;
+  }
+}
+@media (max-width: 500px) {
+  .hero-container {
+    height: 40rem;
+  }
+  .hero-title {
+    font-size: 3.2rem;
+  }
+  .hero-link {
+    font-size: 1.5rem;
+  }
+}
