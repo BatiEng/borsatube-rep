@@ -18,7 +18,7 @@ const parse = async (url) => {
   });
 };
 parse(feedUrl);
-app.use("/api/rss", async (req, res) => {
+app.get("/api/rss", async (req, res) => {
   res.send(articles);
 });
 app.listen(5173, () => {
