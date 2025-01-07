@@ -14,7 +14,15 @@ const parser = new RSSParser();
 let articles = [];
 
 const parse = async (url) => {
-  const feed = await parser.parseURL(url);
+  let counter = 1;
+  let feed = null;
+  while (feed === null) {
+    counter += 1;
+    feed = await parser.parseURL(url);
+    if (counter > 10) {
+      break;
+    }
+  }
   feed.items.forEach((item) => {
     articles.push(item);
   });
