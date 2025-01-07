@@ -36,7 +36,9 @@ function Footer() {
               <h2 className="footer-list-title">İletişim</h2>
               <ul className="footer-list">
                 <li>
-                  <a href="#">borsatube@gmail.com</a>
+                  <a className="footer-link" href="#">
+                    borsatube@gmail.com
+                  </a>
                 </li>
               </ul>
             </div>

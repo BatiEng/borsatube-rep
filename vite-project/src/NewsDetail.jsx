@@ -24,11 +24,14 @@ const NewsDetail = () => {
       <div className="news-detail-container">
         {articles[id] && (
           <div>
-            <img
-              className="news-detail-img"
-              src={articles[id].enclosure.url}
-              alt=""
-            />
+            <div className="news-detail-img-con">
+              <img
+                className="news-detail-img"
+                src={articles[id].enclosure.url}
+                alt=""
+              />
+            </div>
+
             <h1 className="news-detail-title">{articles[id].title}</h1>
             <p className="news-detail-text">
               {articles[id]["content:encodedSnippet"]}

@@ -62,10 +62,19 @@
     gap: 10rem;
   }
 }
+@media (max-width: 600px) {
+  .footer-container {
+  }
+  .footer-list-title {
+    font-size: 1.8rem;
+  }
+  .footer-link {
+    font-size: 1.3rem;
+  }
+}
 
 @media (max-width: 410px) {
   .copy-text {
-    display: none;
   }
   .footer-minus-copy {
     flex-direction: column;

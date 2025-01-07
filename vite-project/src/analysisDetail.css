@@ -15,7 +15,7 @@
 }
 .analysis-detail-img {
   margin: 1rem auto;
-  max-width: 120rem;
+  max-width: 100rem;
 }
 .analysis-detail-text {
   font-size: 2rem;
@@ -23,11 +23,20 @@
   line-height: 1.5;
 }
 .analysis-detail-description {
-  max-width: 120rem;
+  max-width: 100rem;
   margin: 5rem auto;
+}
+@media (max-width: 1050px) {
+  .analysis-detail-img {
+    max-width: 90rem;
+  }
+  .analysis-detail-description {
+    margin: 3rem 3rem;
+  }
 }
 @media (max-width: 960px) {
   .analysis-detail-img {
+    max-width: 80rem;
   }
   .analysis-detail-name {
     font-size: 2rem;
@@ -40,5 +49,43 @@
   }
   .analysis-detail-text {
     font-size: 1.5rem;
+  }
+}
+@media (max-width: 850px) {
+  .analysis-detail-img {
+    max-width: 70rem;
+  }
+}
+@media (max-width: 750px) {
+  .analysis-detail-img {
+    max-width: 60rem;
+  }
+}
+@media (max-width: 650px) {
+  .analysis-detail-img {
+    max-width: 50rem;
+  }
+}
+@media (max-width: 550px) {
+  .analysis-detail-img {
+    max-width: 40rem;
+  }
+  .analysis-detail-title {
+    font-size: 2rem;
+  }
+  .analysis-detail-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .analysis-detail-img {
+    max-width: 30rem;
+  }
+  .analysis-detail-title {
+    font-size: 1.5rem;
+  }
+  .analysis-detail-text {
+    font-size: 1rem;
   }
 }
