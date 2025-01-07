@@ -19,7 +19,7 @@ const parse = async (url) => {
   while (feed === null) {
     counter += 1;
     feed = await parser.parseURL(url);
-    if (counter > 10) {
+    if (counter > 9) {
       break;
     }
   }
