@@ -2,8 +2,19 @@ import "./tutorialCard.css";
 import { FaTurkishLiraSign } from "react-icons/fa6";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 function TutorialCard(props) {
+  useEffect(() => {
+    if (props.isBtn !== null) {
+      if (props.isBtn === false) {
+        const btn = document.querySelector(".inspect");
+        const container = document.querySelector(".card-container");
+        btn.style.display = "none";
+        container.style.height = "77rem";
+      }
+    }
+  }, []);
   return (
     <div className="card-container">
       <h1 className="card-title">{props.title}</h1>

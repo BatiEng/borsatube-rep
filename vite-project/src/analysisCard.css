@@ -41,6 +41,12 @@
   font-size: 1.8rem;
 }
 
+@media (max-width: 830px) {
+  .analysis-container:hover {
+    transform: none;
+  }
+}
+
 /* #1d8f5a
   #1d8f5ac0 
   #5d0101*/

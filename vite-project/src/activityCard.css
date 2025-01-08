@@ -53,6 +53,11 @@
     margin: 3rem 2rem;
   }
 }
+@media (max-width: 830px) {
+  .activity-container:hover {
+    transform: none;
+  }
+}
 @media (max-width: 660px) {
   .activity-img {
     display: none;

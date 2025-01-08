@@ -35,6 +35,7 @@ function TutorialDetail() {
         </div>
         <div className="tutorials-detail-card">
           <TutorialsCard
+            isBtn={false}
             title={data[0].title}
             img={data[0].img}
             features={data[0].features}
