@@ -14,9 +14,9 @@ function Footer() {
             <h2 className="footer-list-title">Kurumsal</h2>
             <ul className="footer-list">
               <li>
-                <a className="footer-link" href="#">
+                <Link className="footer-link" to="/kvkk">
                   KVKK
-                </a>
+                </Link>
               </li>
               <li>
                 <Link className="footer-link" to="/hakkimizda">
@@ -24,9 +24,12 @@ function Footer() {
                 </Link>
               </li>
               <li>
-                <a className="footer-link" href="#">
+                <Link
+                  className="footer-link"
+                  to="/gizlilik-ve-cerez-politikasi"
+                >
                   Gizlilik ve Çerez Politikası
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

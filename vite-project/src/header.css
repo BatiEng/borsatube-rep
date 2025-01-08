@@ -48,6 +48,7 @@ a:hover {
   color: white;
   padding: 1.6rem;
   border-radius: 20px;
+  display: none;
 }
 .login:hover {
   text-decoration: none;
@@ -104,7 +105,7 @@ a:hover {
     width: 30rem;
   }
   .login-sidebar {
-    display: block;
+    /* display: block; */
   }
   .login {
     display: none;

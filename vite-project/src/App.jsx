@@ -15,6 +15,8 @@ import News from "./News";
 import Login from "./Login";
 import { FaWhatsapp } from "react-icons/fa";
 import { useEffect } from "react";
+import KVKKPolicy from "./KVKKPolicy";
+import PrivacyAndCookiePolicy from "./PrivacyAndCookiePolicy";
 
 function App() {
   useEffect(() => {
@@ -38,6 +40,11 @@ function App() {
         <Route path="/egitimler/:id" element={<TutorialDetail />} />
         <Route path="/analizler/:id" element={<AnalysisDetail />} />
         <Route path="/haberler/:id" element={<NewsDetail />} />
+        <Route path="/kvkk" element={<KVKKPolicy />} />
+        <Route
+          path="/gizlilik-ve-cerez-politikasi"
+          element={<PrivacyAndCookiePolicy />}
+        />
       </Routes>
       <div className="whatsapp-support-link-container">
         <div className="whatsapp-support-link-sub">
