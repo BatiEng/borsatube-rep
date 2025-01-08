@@ -6,10 +6,11 @@ import { useParams } from "react-router";
 const NewsDetail = () => {
   const { id } = useParams();
   const [articles, setArticles] = useState([]);
+  const apiUrl = import.meta.env.VITE_API_URL;
 
   const getArticles = async () => {
     try {
-      const res = await axios.get("https://borsatube-rep-server.vercel.app/");
+      const res = await axios.get(apiUrl);
       setArticles(res.data);
     } catch (err) {
       console.log(err);

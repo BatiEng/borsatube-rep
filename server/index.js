@@ -8,7 +8,7 @@ const RSSParser = require("rss-parser");
 const app = express();
 app.use(cors());
 
-const feed    Url = "https://www.trthaber.com/ekonomi_articles.rss";
+const feedUrl = "https://www.trthaber.com/ekonomi_articles.rss";
 
 const parser = new RSSParser();
 let articles = [];
