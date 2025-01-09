@@ -26,7 +26,7 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div className="all-elements">
       <TradingviewWidget />
       <Header />
       <Routes>
@@ -60,7 +60,7 @@ function App() {
         <p className="fixed-support-link-text">bize ulaşın</p>
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
 
