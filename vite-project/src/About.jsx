@@ -15,8 +15,8 @@ function About() {
         <div className="about-desc">
           <h1 className="about-title">Hakkımda</h1>
           <p className="about-exp">
-            Hakkında Merhaba! Ben Borsatube, profesyonel bir borsa eğitmeniyim.
-            Finansal piyasalarda edindiğim yıllara dayanan tecrübemi, bilgi ve
+            Merhaba! Ben Borsatube, profesyonel bir borsa eğitmeniyim. Finansal
+            piyasalarda edindiğim yıllara dayanan tecrübemi, bilgi ve
             stratejilerimi sizlerle paylaşmak için buradayım. Amacım, borsa ve
             yatırım dünyasını anlamanızı kolaylaştırmak, bilinçli ve etkili
             kararlar almanıza yardımcı olmaktır. Eğitimlerimde, temel analizden

@@ -49,7 +49,7 @@ const KVKKPolicy = () => {
 
       <h2 className="kvkk-sub-title">5. Kişisel Verilerin Korunması</h2>
       <p className="kvkk-text">
-        [Şirket/Site Adı], kişisel verilerinizi yetkisiz erişime, kayba, yanlış
+        Borsatube, kişisel verilerinizi yetkisiz erişime, kayba, yanlış
         kullanıma, ifşaya ve değiştirmeye karşı korumak için gerekli teknik ve
         idari tedbirleri alır.
       </p>
