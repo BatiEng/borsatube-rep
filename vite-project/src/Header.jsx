@@ -40,6 +40,9 @@ function Header() {
         e.target.className === "news-card-date-container" ||
         e.target.className === "analysis-page-main" ||
         e.target.className === "all-elements" ||
+        e.target.className === "analysis-card-main-container" ||
+        e.target.className === "analysis-link-container" ||
+        e.target.className === "tutorials-card" ||
         e.target.className === "analysis-desc-item analysis-date"
       ) {
         const navEl = document.querySelector(".nav-links");

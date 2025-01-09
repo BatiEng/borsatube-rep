@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 function AnalysisCard(props) {
   return (
-    <>
+    <div className="analysis-card-main-container">
       <div className="analysis-container">
         <img className="analysis-img" src={props.img} alt="analysis image" />
         <hr />
@@ -26,7 +26,7 @@ function AnalysisCard(props) {
           <h3 className="analysis-author">{props.publishedBy}</h3>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 AnalysisCard.prototype = {

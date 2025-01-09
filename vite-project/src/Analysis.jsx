@@ -8,7 +8,7 @@ function Analysis() {
     <div className="analysis-page-main">
       <div className="analysis-page-sub">
         {analysisData.map((a) => (
-          <div key={a.id}>
+          <div className="analysis-link-container" key={a.id}>
             <Link to={`/analizler/${a.id}`} className="analysis-link">
               <AnalysisCard
                 img={a.img}
