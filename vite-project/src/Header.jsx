@@ -4,87 +4,96 @@ import { AiOutlineStock } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa6";
 import { IoClose } from "react-icons/io5";
-import { useState, useRef, useEffect } from "react";
+import { useEffect } from "react";
 
 function Header() {
-  const [isSidebarVisible, setIsSidebarVisible] = useState(false);
-  const navRef = useRef(null);
+  document.addEventListener("click", (e) => {
+    const w = window.innerWidth;
 
-  const toggleSidebar = () => {
-    setIsSidebarVisible((prev) => !prev);
-  };
-
-  const hideSidebar = () => {
-    setIsSidebarVisible(false);
-  };
-
-  useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (navRef.current && !navRef.current.contains(event.target)) {
-        setIsSidebarVisible(false);
+    if (w < 880) {
+      if (
+        e.target.className === "hero-container" ||
+        e.target.className === "hero-title" ||
+        e.target.className === "tutorial-container" ||
+        e.target.className === "tutorial-container-sub" ||
+        e.target.className === "section-title"
+      ) {
+        const navEl = document.querySelector(".nav-links");
+        navEl.style.display = "none";
       }
-    };
+      console.log(e.target.className);
+    }
+  });
+  const hideSideBar = () => {
+    const w = window.innerWidth;
 
-    document.addEventListener("mousedown", handleClickOutside);
-
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, []);
-
+    if (w < 880) {
+      const navEl = document.querySelector(".nav-links");
+      navEl.style.display = "none";
+    }
+  };
+  const showSideBar = () => {
+    const navEl = document.querySelector(".nav-links");
+    navEl.style.display = "flex";
+  };
   return (
     <>
       <div className="header-container">
         <div className="header-logo">
           <Link to="/">
-            <img className="header-logo" src="./../public/borsatube-logo.png" />
+            <img
+              className="header-logo"
+              src="https://github.com/BatiEng/borsatube-rep/blob/main/vite-project/public/borsatube-logo.png?raw=true"
+            />
           </Link>
           <Link className="header-title" to="/">
             Borsatube
           </Link>
         </div>
-        <ul
-          ref={navRef}
-          className={`nav-links ${isSidebarVisible ? "visible" : "hidden"}`}
-        >
-          <li onClick={hideSidebar}>
+        <ul className="nav-links">
+          <li onClick={hideSideBar}>
             <p className="hide-icon">
               <IoClose />
             </p>
           </li>
-          <li onClick={hideSidebar}>
+          <li onClick={hideSideBar}>
             <Link to="/hakkimizda">
               <p>Hakkımızda</p>
             </Link>
           </li>
-          <li onClick={hideSidebar}>
+          <li onClick={hideSideBar}>
             <Link to="/analizler">
               <p>Analizler</p>
             </Link>
           </li>
-          <li onClick={hideSidebar}>
+          <li onClick={hideSideBar}>
             <Link to="/egitimler">
-              <p>Eğitimler</p>
+              <p className="abc">Eğitimler</p>
             </Link>
           </li>
-          <li onClick={hideSidebar}>
+          {/* <li onClick={hideSideBar}>
             <Link to="/etkinlikler">
               <p>Seminerler</p>
             </Link>
-          </li>
-          <li onClick={hideSidebar}>
+          </li> */}
+          {/* <li onClick={hideSideBar}>
+            <Link to="/kutuphane">
+              <p>Kütüphane</p>
+            </Link>
+          </li> */}
+          <li onClick={hideSideBar}>
             <Link to="/haberler">
               <p>Haberler</p>
             </Link>
           </li>
-          <li className="login-sidebar" onClick={hideSidebar}>
-            <Link to="/login">
+          <li className="login-sidebar" onClick={hideSideBar}>
+            <Link to="/giris-yap">
               <p>Giriş Yap</p>
             </Link>
           </li>
         </ul>
         <div className="header-bar-login">
-          <div onClick={toggleSidebar} className="bar-icon">
+          <div onClick={showSideBar} className="bar-icon">
             <FaBars />
           </div>
           <Link className="login" to="/giris-yap">
