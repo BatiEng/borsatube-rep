@@ -16,7 +16,14 @@ function Header() {
         e.target.className === "hero-title" ||
         e.target.className === "tutorial-container" ||
         e.target.className === "tutorial-container-sub" ||
-        e.target.className === "section-title"
+        e.target.className === "section-title" ||
+        e.target.className === "about-author" ||
+        e.target.className === "about-img-container" ||
+        e.target.className === "about-title" ||
+        e.target.className === "about-exp" ||
+        e.target.className === "analysis-page-sub" ||
+        e.target.className === "analysis-link" ||
+        e.target.className === "container"
       ) {
         const navEl = document.querySelector(".nav-links");
         navEl.style.display = "none";
