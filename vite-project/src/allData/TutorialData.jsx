@@ -18,7 +18,7 @@ const tutorialData = [
     fakePrice: 14.999,
     price: 9999,
     description:
-      " Borsa dünyasına merakla bakıyor ama nereden başlayacağınızı bilemiyormusunuz? Temel Borsa Eğitimi tam size göre! Bu eğitim,yatırım yapmanın temellerini öğrenmek isteyen yeni başlayanlar için özenle hazırlanmıştır. Borsa kavramlarından hisse senetlerinin mantığına, piyasa dinamiklerinden alım-satım süreçlerine kadar her detayı en sade ve anlaşılır şekilde öğreneceksiniz. Bu eğitimle finansal özgürlüğünüzün ilk adımını atarken, piyasanın karmaşık görünen yüzünü bir rehber eşliğinde keşfedin. Artık borsa sizin için bir muamma değil; fırsatlarla dolu bir dünya olacak!",
+      " Borsa dünyasına merakla bakıyor ama nereden başlayacağınızı bilmiyor musunuz? Temel Borsa Eğitimi tam size göre! Bu eğitim,yatırım yapmanın temellerini öğrenmek isteyen yeni başlayanlar için özenle hazırlanmıştır. Borsa kavramlarından hisse senetlerinin mantığına, piyasa dinamiklerinden alım-satım süreçlerine kadar her detayı en sade ve anlaşılır şekilde öğreneceksiniz. Bu eğitimle finansal özgürlüğünüzün ilk adımını atarken, piyasanın karmaşık görünen yüzünü bir rehber eşliğinde keşfedin. Artık borsa sizin için bir muamma değil; fırsatlarla dolu bir dünya olacak!",
     detailFeatures: [
       "Teknik analiz eğitimi",
       "Tradingview ve matriks kullanımı",
@@ -64,7 +64,7 @@ const tutorialData = [
     fakePrice: 24.999,
     price: 19.999,
     description:
-      " Borsa dünyasına merakla bakıyor ama nereden başlayacağınızı bilemiyormusunuz? Temel Borsa Eğitimi tam size göre! Bu eğitim,yatırım yapmanın temellerini öğrenmek isteyen yeni başlayanlar içinözenle hazırlanmıştır. Borsa kavramlarından hisse senetlerinin mantığına,piyasa dinamiklerinden alım-satım süreçlerine kadar herdetayı ensade ve anlaşılır şekilde öğreneceksiniz. Bu eğitimle finansal özgürlüğünüzün ilk adımını atarken, piyasanın karmaşıkgörünen yüzünü bir rehber eşliğinde keşfedin. Artık borsa sizin içinbir muamma değil; fırsatlarla dolu bir dünya olacak!",
+      " Borsa dünyasına merakla bakıyor ama nereden başlayacağınızı bilmiyor musunuz? Temel Borsa Eğitimi tam size göre! Bu eğitim,yatırım yapmanın temellerini öğrenmek isteyen yeni başlayanlar için özenle hazırlanmıştır. Borsa kavramlarından hisse senetlerinin mantığına, piyasa dinamiklerinden alım-satım süreçlerine kadar her detayı en sade ve anlaşılır şekilde öğreneceksiniz. Bu eğitimle finansal özgürlüğünüzün ilk adımını atarken, piyasanın karmaşık görünen yüzünü bir rehber eşliğinde keşfedin. Artık borsa sizin için bir muamma değil; fırsatlarla dolu bir dünya olacak!",
     detailFeatures: [
       "Teknik analiz eğitimi",
       "Tradingview ve matriks kullanımı",
@@ -108,7 +108,7 @@ const tutorialData = [
     fakePrice: 14.999,
     price: 9999,
     description:
-      " Borsa dünyasına merakla bakıyor ama nereden başlayacağınızı bilemiyormusunuz? Temel Borsa Eğitimi tam size göre! Bu eğitim,yatırım yapmanın temellerini öğrenmek isteyen yeni başlayanlar içinözenle hazırlanmıştır. Borsa kavramlarından hisse senetlerinin mantığına,piyasa dinamiklerinden alım-satım süreçlerine kadar herdetayı ensade ve anlaşılır şekilde öğreneceksiniz. Bu eğitimle finansal özgürlüğünüzün ilk adımını atarken, piyasanın karmaşıkgörünen yüzünü bir rehber eşliğinde keşfedin. Artık borsa sizin içinbir muamma değil; fırsatlarla dolu bir dünya olacak!",
+      " Borsa dünyasına merakla bakıyor ama nereden başlayacağınızı bilmiyor musunuz? Temel Borsa Eğitimi tam size göre! Bu eğitim,yatırım yapmanın temellerini öğrenmek isteyen yeni başlayanlar için özenle hazırlanmıştır. Borsa kavramlarından hisse senetlerinin mantığına, piyasa dinamiklerinden alım-satım süreçlerine kadar her detayı en sade ve anlaşılır şekilde öğreneceksiniz. Bu eğitimle finansal özgürlüğünüzün ilk adımını atarken, piyasanın karmaşık görünen yüzünü bir rehber eşliğinde keşfedin. Artık borsa sizin için bir muamma değil; fırsatlarla dolu bir dünya olacak!",
     detailFeatures: [
       "Bilanço okumak",
       "Bilanço analiz etmek",
@@ -137,7 +137,7 @@ const tutorialData = [
     fakePrice: 24.999,
     price: 19.999,
     description:
-      " Borsa dünyasına merakla bakıyor ama nereden başlayacağınızı bilemiyormusunuz? Temel Borsa Eğitimi tam size göre! Bu eğitim,yatırım yapmanın temellerini öğrenmek isteyen yeni başlayanlar içinözenle hazırlanmıştır. Borsa kavramlarından hisse senetlerinin mantığına,piyasa dinamiklerinden alım-satım süreçlerine kadar herdetayı ensade ve anlaşılır şekilde öğreneceksiniz. Bu eğitimle finansal özgürlüğünüzün ilk adımını atarken, piyasanın karmaşıkgörünen yüzünü bir rehber eşliğinde keşfedin. Artık borsa sizin içinbir muamma değil; fırsatlarla dolu bir dünya olacak!",
+      " Borsa dünyasına merakla bakıyor ama nereden başlayacağınızı bilmiyor musunuz? Temel Borsa Eğitimi tam size göre! Bu eğitim,yatırım yapmanın temellerini öğrenmek isteyen yeni başlayanlar için özenle hazırlanmıştır. Borsa kavramlarından hisse senetlerinin mantığına, piyasa dinamiklerinden alım-satım süreçlerine kadar her detayı en sade ve anlaşılır şekilde öğreneceksiniz. Bu eğitimle finansal özgürlüğünüzün ilk adımını atarken, piyasanın karmaşık görünen yüzünü bir rehber eşliğinde keşfedin. Artık borsa sizin için bir muamma değil; fırsatlarla dolu bir dünya olacak!",
     detailFeatures: [
       "Bilanço okumak",
       "Bilanço analiz etmek",

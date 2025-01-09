@@ -21,9 +21,24 @@ function Header() {
         e.target.className === "about-img-container" ||
         e.target.className === "about-title" ||
         e.target.className === "about-exp" ||
+        e.target.className === "about-container" ||
+        e.target.className === "about-img" ||
         e.target.className === "analysis-page-sub" ||
         e.target.className === "analysis-link" ||
-        e.target.className === "container"
+        e.target.className === "container" ||
+        e.target.className === "analysis-desc-item analysis-share" ||
+        e.target.className === "analysis-desc" ||
+        e.target.className === "analysis-title" ||
+        e.target.className === "analysis-desc-item analysis-exp" ||
+        e.target.className === "card-img" ||
+        e.target.className === "card-container" ||
+        e.target.className === "tutorials-page-sub" ||
+        e.target.className === "card-feature" ||
+        e.target.className === "news-container" ||
+        e.target.className === "news-card-description" ||
+        e.target.className === "news-card-image" ||
+        e.target.className === "news-card-date-container" ||
+        e.target.className === "analysis-desc-item analysis-date"
       ) {
         const navEl = document.querySelector(".nav-links");
         navEl.style.display = "none";
