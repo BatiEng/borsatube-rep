@@ -95,13 +95,13 @@ a:hover {
     backdrop-filter: blur(5px);
     background-color: #00000064;
     background-color: #4d464686;
-
+    border-bottom-left-radius: 2rem;
     position: absolute;
     top: 0;
     left: 100%;
     transform: translate(-100%, 0);
     padding: 2rem;
-    width: 100vw;
+    width: 30rem;
   }
   .login-sidebar {
     /* display: block; */
