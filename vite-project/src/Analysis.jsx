@@ -5,7 +5,7 @@ import "./analysis.css";
 
 function Analysis() {
   return (
-    <>
+    <div className="analysis-page-main">
       <div className="analysis-page-sub">
         {analysisData.map((a) => (
           <div key={a.id}>
@@ -22,7 +22,7 @@ function Analysis() {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 }
 

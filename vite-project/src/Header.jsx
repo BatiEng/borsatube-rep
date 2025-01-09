@@ -38,6 +38,7 @@ function Header() {
         e.target.className === "news-card-description" ||
         e.target.className === "news-card-image" ||
         e.target.className === "news-card-date-container" ||
+        e.target.className === "analysis-page-main" ||
         e.target.className === "analysis-desc-item analysis-date"
       ) {
         const navEl = document.querySelector(".nav-links");
