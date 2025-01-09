@@ -123,12 +123,3 @@ a:hover {
 .nav-links p {
   font-size: 2rem;
 }
-.nav-links {
-  display: none;
-}
-.nav-links.visible {
-  display: flex;
-}
-.nav-links.hidden {
-  display: none;
-}
