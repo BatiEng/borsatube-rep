@@ -17,6 +17,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { useEffect } from "react";
 import KVKKPolicy from "./KVKKPolicy";
 import PrivacyAndCookiePolicy from "./PrivacyAndCookiePolicy";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   useEffect(() => {
@@ -27,6 +28,7 @@ function App() {
 
   return (
     <div className="all-elements">
+      <Analytics />
       <TradingviewWidget />
       <Header />
       <Routes>
