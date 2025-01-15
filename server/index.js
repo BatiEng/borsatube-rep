@@ -32,5 +32,5 @@ app.get("/", async (req, res) => {
   res.send(articles);
 });
 app.listen(3000, () => {
-  console.log("listening");
+  console.log("listening server");
 });
